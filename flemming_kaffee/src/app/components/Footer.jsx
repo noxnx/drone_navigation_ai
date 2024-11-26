@@ -8,11 +8,11 @@ export default function Footer() {
         className="border-t-2 m-10 grid grid-rows-3 grid-flow-col gap-4"
         id="footer"
       >
-        <div class="row-span-3 border border-black shadow-xl rounded-lg p-4 mt-5">
+        <div className="row-span-3 border border-black shadow-xl rounded-lg p-4 mt-5 h-auto">
           <div className="flex flex-row items-center">
             <Link href="/" className="cursor-pointer">
               <Image
-                src="/flemming_transparent.png"
+                src="/Flemming_transparent.png"
                 width={250}
                 height={250}
                 alt="Flemming Logo"

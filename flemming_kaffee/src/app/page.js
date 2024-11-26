@@ -166,7 +166,7 @@ export default function Home() {
       </div>
       </IsInViewSection>
       </div>
-      <div>
+      <div className="mt-48">
         <IsInViewSection>
           <div className="bg-white min-h-screen min-w-full text-center justify-center space-y-24">
             <h2 className="font-display text-center text-4xl font-bold tracking-tight text-black dark:text-white md:text-7xl md:leading-[5rem]">Unser Angebot</h2>
@@ -182,7 +182,7 @@ export default function Home() {
               <h3 className="mr-4">Vollautomaten</h3>
               <p className="mx-4">Erleben Sie die Zukunft des Kaffeekochens mit unserer Premium-Vollautomaten-Kaffeemaschine – die ideale Lösung für alle, die Wert auf Qualität, Komfort und Individualität legen. Mit nur einem Knopfdruck zaubert dieser Kaffeevollautomat aromatischen Kaffee, Espresso, Cappuccino und viele weitere Kaffeespezialitäten direkt in Ihre Tasse. Unsere Maschine vereint fortschrittliche Technologie mit intuitivem Design, um Ihnen das bestmögliche Kaffeevergnügen zu bieten. Dank der hochmodernen Mahltechnik wird jedes Kaffeebohnenaroma perfekt zur Entfaltung gebracht, während die automatische Dampffunktion für einen samtigen Milchschaum sorgt – ganz nach Ihrem Geschmack.</p>
             </div>
-            <Image src="/jura-ena-8-scaled-e1717055768592.jpg" width={1000} height={750} alt="Jura Vollautomat"  className="rounded-lg product-image-slidein shadow-xl"/>
+            <Image src="/jura-ena-8-scaled-e1717055768592.jpg" width={1000} height={750} alt="Jura Vollautomat" className="rounded-lg product-image-slidein shadow-xl"/>
           </div>
           </div>
         </IsInViewSection>
