@@ -15,7 +15,7 @@ import ThemesToggle from "@/app/components/ThemesToggle";
 
 export default function NavigationBar() {
   return (
-    <div className="flex flex-row justify-start w-auto border-b">
+    <div className="flex flex-row justify-start w-auto ">
       <Image
         src="/Flemming_transparent.png"
         width={150}
@@ -28,7 +28,11 @@ export default function NavigationBar() {
           <NavigationMenuItem>
             <NavigationMenuTrigger>Produkte</NavigationMenuTrigger>
             <NavigationMenuContent className="p-4 space-x-10 flex flex-row">
-              <Link href="#" legacyBehavior passHref>
+              <Link
+                href="/products/siebträgermaschinen"
+                legacyBehavior
+                passHref
+              >
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Siebträgermaschinen
                 </NavigationMenuLink>
@@ -41,6 +45,11 @@ export default function NavigationBar() {
               <Link href="#" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Kaffeemühlen
+                </NavigationMenuLink>
+              </Link>
+              <Link href="#" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Kaffeebohnen
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuContent>
@@ -64,6 +73,13 @@ export default function NavigationBar() {
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuContent>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Reparatur
+              </NavigationMenuLink>
+            </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <Link href="/" legacyBehavior passHref>
