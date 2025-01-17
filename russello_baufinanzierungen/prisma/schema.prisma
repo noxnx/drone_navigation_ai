@@ -1,0 +1,28 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Property {
+  id                     Int   @id @default(autoincrement())
+  description            String?
+  price                  String?
+  living_space           String?
+  property_size          String?
+  rooms                  String?
+  bathrooms              String?
+  construction_year      String?
+  renovation_changes     String?
+  energy_efficiency      String?
+  additional_information String?
+  property_images        String[]
+  town                   String?
+  parking_space          String?
+}

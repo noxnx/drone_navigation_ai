@@ -8,15 +8,21 @@ export default function Navbar() {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Immobilien</a>
+              <a>Baufinanzierung</a>
             </li>
             <li>
-              <a>Leistungen</a>
+              <a>Privatkredit</a>
+            </li>
+            <li>
+              <a>Immobilien</a>
             </li>
             <li>
               <a>Kontakt</a>
             </li>
             <li>
+              <a>Über uns</a>
+            </li>
+            {/* <li>
               <details>
                 <summary>Parent</summary>
                 <ul className="bg-base-100 rounded-t-none p-2">
@@ -28,7 +34,7 @@ export default function Navbar() {
                   </li>
                 </ul>
               </details>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
